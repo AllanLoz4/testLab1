@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, C#!");
-throw new Exception();
-int z;
+﻿        Console.WriteLine("Hello, C#!");
+        //throw new Exception();
+        int z = 22;
+        Console.WriteLine("Var is {0}", z);
+     Console.WriteLine("Hello Allan Lozano Bardales");
+    Console.WriteLine("Version: {0}", Environment.Version.ToString());
