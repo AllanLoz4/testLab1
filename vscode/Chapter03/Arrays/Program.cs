@@ -1,15 +1,19 @@
-﻿string[] names; // can reference any size array of strings
+﻿using static System.Console;
+
+Console.WriteLine("Hello Allan Lozano Bardales!");
+Console.WriteLine("Version: {0}", Environment.Version.ToString());
+string[] names; // can reference any size array of strings
 
 // allocating memory for four strings in an array
 names = new string[4];
 
 // storing items at index positions
-names[0] = "Kate";
-names[1] = "Jack";
-names[2] = "Rebecca";
-names[3] = "Tom";
+names[0] = "Pat";
+names[1] = "Jacky";
+names[2] = "Bec";
+names[3] = "Montero";
 
-string[] names2 = new[] { "Kate", "Jack", "Rebecca", "Tom" };
+string[] names2 = new[] { "Pat", "Jacky", "Bec", "Montero" };
 
 // looping through the names
 for (int i = 0; i < names2.Length; i++)
@@ -104,3 +108,11 @@ static string CheckSwitch(int[] values) => values switch
   [2, .. int[] others] => $"Starts with 2, then {others.Length} more numbers.",
   [..] => "Any items in any order.",
 };
+
+
+
+
+
+
+
+
